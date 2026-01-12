@@ -1,0 +1,73 @@
+📍 Station Overview
+
+Station Name: Shimla Railway Station
+
+Station Code: SML
+
+Railway Zone: Northern Railway
+
+Elevation: Approx. 2,076 meters
+
+Railway Line: Kalka–Shimla Narrow Gauge (UNESCO World Heritage)
+
+🚆 Kalka–Shimla Passenger Train
+
+Train Type: Narrow Gauge Passenger
+
+Route: Kalka → Shimla
+
+Arrival at Shimla: 12:40 PM
+
+Departure from Kalka: 05:10 AM
+
+Journey Duration: ~7 hours 30 minutes
+
+Frequency: Daily
+
+Purpose: Regular passenger travel
+
+🚆 Kalka–Shimla Shivalik Deluxe Express
+
+Train Type: Deluxe Tourist Train
+
+Route: Kalka → Shimla
+
+Arrival at Shimla: 01:20 PM
+
+Departure from Kalka: 06:45 AM
+
+Journey Duration: ~6 hours 35 minutes
+
+Frequency: Daily (subject to season)
+
+Special Feature: Panoramic coaches, onboard meals
+
+🚆 Rail Motor Car (RMC)
+
+Train Type: Rail Motor
+
+Route: Kalka → Shimla
+
+Arrival at Shimla: 06:25 PM
+
+Departure from Kalka: 02:05 PM
+
+Journey Duration: ~4 hours 20 minutes
+
+Frequency: Limited / Seasonal
+
+Use Case: Faster option with limited seating
+
+🕒 Departure Trains from Shimla
+
+Shimla → Kalka Passenger
+
+Departure: 10:30 AM
+
+Arrival at Kalka: 06:10 PM
+
+Shimla → Kalka Shivalik Deluxe
+
+Departure: 05:40 PM
+
+Arrival at Kalka: 11:50 PM
