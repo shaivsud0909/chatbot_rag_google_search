@@ -8,6 +8,8 @@ import os
 from tools import tools
 from langgraph.checkpoint.memory import MemorySaver
 from langgraph.prebuilt import ToolNode,tools_condition
+from langgraph.checkpoint.postgres import PostgresSaver
+import psycopg
 
 load_dotenv()
 
@@ -30,10 +32,17 @@ def chat_node(state: ChatState):
     response = llm.invoke(messages)
     return {"messages": [response]}
 
-# conn=sqlite3.connect(database='chatbot.db')
-# checkpointer=SqliteSaver(conn=conn)
 
-checkpointer=MemorySaver()
+conn = psycopg.connect(
+    dbname="demo1",
+    user="postgres",
+    password=os.getenv("password"),
+    host="localhost",
+    port=5433
+)
+conn.autocommit = True
+checkpointer = PostgresSaver(conn)
+checkpointer.setup()
 
 graph=StateGraph(ChatState)   
 
